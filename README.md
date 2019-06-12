@@ -5,6 +5,7 @@ code for paper [Geometry-Contrastive GAN for Facial Expression Transfer](https:/
 ## Overview
 In this paper, we propose a Geometry-Contrastive Generative Adversarial Network (GC-GAN) for transferring continuous emotions across different subjects. Given an input face with certain emotion and a target facial expression from another subject, GC-GAN can generate an identity-preserving face with the target expression. Geometry information is introduced into cGANs as continuous conditions to guide the generation of facial expressions. In order to handle the misalignment across different subjects or emotions, contrastive learning is used to transform geometry manifold into an embedded semantic manifold of facial expressions. Therefore, the embedded geometry is injected into the latent space of GANs and control the emotion generation effectively. Experimental results demonstrate that our proposed method can be applied in facial expression transfer even there exist big differences in facial shapes and expressions between different subjects. 
 <p align="center"><img src="imgs/architecture.png" width="600"></p>
+
 ## Files
 
 ``data_process.py``: create training and test pairs
