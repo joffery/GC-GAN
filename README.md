@@ -1,6 +1,6 @@
 # GC-GAN
 
-code for paper [Geometry-Contrastive GAN for Facial Expression Transfer] (https://arxiv.org/abs/1802.01822)
+code for paper [Geometry-Contrastive GAN for Facial Expression Transfer](https://arxiv.org/abs/1802.01822)
 
 ## Overview
 
